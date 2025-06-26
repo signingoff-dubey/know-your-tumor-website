@@ -10,7 +10,7 @@ CORS(app, resources={r"/predict": {"origins": "https://know-your-tumor.netlify.a
 
 # Configuration
 MODEL_PATH = "brain_model.h5"
-DRIVE_URL = "https://drive.google.com/uc?export=download&id=1aUcHF8BZ2dW-7qh1zDIoIfWgRd2RHANM"
+DRIVE_URL = "https://drive.google.com/uc?export=download&id=1AGm5KNQWcnerQ_kSZnlRFKWF3Ga4WUAj"
 IMG_SIZE = 100  # Matches training size
 
 # Force TensorFlow to use CPU
