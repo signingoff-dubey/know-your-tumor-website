@@ -22,7 +22,7 @@ if not os.path.exists(MODEL_PATH):
     gdown.download(DRIVE_URL, MODEL_PATH, quiet=False)
 
 # Load model once at startup
-model = load_model(MODEL_PATH)
+model = load_model(MODEL_PATH, compile=False)
 
 # Optional: Compile the model to avoid warnings
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
