@@ -9,8 +9,8 @@ app = Flask(__name__)
 CORS(app, resources={r"/predict": {"origins": "https://know-your-tumor.netlify.app"}}) # Replace with your Netlify domain
 
 # Configuration
-MODEL_PATH = "emotion_model.h5"
-DRIVE_URL = "https://drive.google.com/uc?export=download&id=1FpCdgR2FyR0ZA28Hdnugx6j5lX8natZq"
+MODEL_PATH = "brain_model.h5"
+DRIVE_URL = "https://drive.google.com/uc?export=download&id=1aUcHF8BZ2dW-7qh1zDIoIfWgRd2RHANM"
 IMG_SIZE = 100  # Matches training size
 
 # Force TensorFlow to use CPU
