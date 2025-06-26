@@ -6,3 +6,4 @@ pillow
 gunicorn
 gdown
 opencv-python
+protobuf==3.20.3
